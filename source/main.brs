@@ -5,6 +5,7 @@
 
 Library "v30/bslDefender.brs"
 
+'For HD Checking
 Function IsHD()
     di = CreateObject("roDeviceInfo")
     if di.GetDisplayType() = "HDTV" then return true
