@@ -55,6 +55,7 @@ function createScreenDescription(topx, topy, width ,height, screenwidth, screenh
             }
 end function
 
+'main()
 Sub Main()
     ' Show Poster screen of screen sizes for testing
   backstop = CreateObject("roParagraphScreen")
